@@ -50,7 +50,7 @@ namespace ServerlessWorkshop
                 log.LogInformation($"Created {numberOfTasks} parallel tasks.");
 
                 // Create container to store files
-                CloudStorageAccount account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=stserverlessdemo;AccountKey=nc7i7bBmypssDCOXBoe6z9cgFbpHQkfg1CPCNlaQgtcKjlqqyaTM4IDV6boxQUlnO3ShxC0CkzjivDxKCOhB9Q==;EndpointSuffix=core.windows.net");
+                CloudStorageAccount account = CloudStorageAccount.Parse("{your-storage-account-connection-string}");
                 CloudBlobClient serviceClient = account.CreateCloudBlobClient();
 
                 var container = serviceClient.GetContainerReference("fanoutdemo");
@@ -79,7 +79,7 @@ namespace ServerlessWorkshop
             var maximum = (index[0] + 1) * index[1];
 
             // Create container to store files
-            CloudStorageAccount account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=stserverlessdemo;AccountKey=nc7i7bBmypssDCOXBoe6z9cgFbpHQkfg1CPCNlaQgtcKjlqqyaTM4IDV6boxQUlnO3ShxC0CkzjivDxKCOhB9Q==;EndpointSuffix=core.windows.net");
+            CloudStorageAccount account = CloudStorageAccount.Parse("{your-storage-account-connection-string}");
             CloudBlobClient serviceClient = account.CreateCloudBlobClient();
 
             var container = serviceClient.GetContainerReference("fanoutdemo");
