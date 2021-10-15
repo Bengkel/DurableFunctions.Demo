@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+    <_LastSelectedProfileId>C:\Users\dick.van.straaten\Source\repos\Serverless Workshop\Lab04 - Durable Functions\Properties\PublishProfiles\func204fa - Zip Deploy.pubxml</_LastSelectedProfileId>
+    <ActiveDebugProfile>Lab 4 - Durable Functions</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
