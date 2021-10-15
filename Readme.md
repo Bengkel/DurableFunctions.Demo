@@ -1,6 +1,6 @@
-* Usage
+**Usage**
 
-Create a local.settings.json file and add the following properties.
+1. Create a local.settings.json file and add the following properties.
 
 >{
 >   "IsEncrypted": false,
@@ -13,11 +13,11 @@ Create a local.settings.json file and add the following properties.
 >  }
 >}
 
-Create a storage account and add the connection string to the settings.
+2. Create a storage account and add the connection string to the settings.
 
-Drop the CSV in the storage cointainer "import" to test the import function.
+3. Drop the CSV in the storage cointainer "import" to test the import function.
 
-Post to json below to test the FanOutBatch function.
+4. Post to json below to test the FanOutBatch function.
 
 >{
 >    "numberOfFiles" : "100000",
